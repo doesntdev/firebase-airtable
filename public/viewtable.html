@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to Firebase Hosting</title>
+
+  <!-- update the version number as needed -->
+  <script src="/__/firebase/5.8.4/firebase-app.js"></script>
+  <!-- include only the Firebase features as you need -->
+  <script src="/__/firebase/5.8.4/firebase-auth.js"></script>
+  <script src="/__/firebase/5.8.4/firebase-firestore.js"></script>
+  <!-- <script src="/__/firebase/5.8.4/firebase-messaging.js"></script> 
+  <script src="/__/firebase/5.8.4/firebase-storage.js"></script> -->
+
+  <script src="js/config.js"></script>
+  
+  <!-- initialize the SDK after all desired features are loaded -->
+ 
+  <link rel="stylesheet" type="text/css" href="css/nes.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+ <div id="loadtable"></div>
+
+  
+
+<script src="js/main.js"></script>
+<script>
+var doccookie = document.cookie
+document.getElementById("loadtable").innerText = doccookie
+</script>
+</body>
+
+</html>
